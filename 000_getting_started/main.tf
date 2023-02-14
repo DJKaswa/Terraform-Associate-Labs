@@ -1,12 +1,12 @@
 terraform {
-  backend "remote" {
-    hostname = "app.terraform.io"
-    organization = "ExamPro"
+  # backend "remote" {
+  #   hostname = "app.terraform.io"
+  #   organization = "ExamPro"
 
-    workspaces {
-      name = "getting-started"
-    }
-  }
+  #   # workspaces {
+  #   #   name = "getting-started"
+  #   # }
+  # }
 
   required_providers {
     aws = {
@@ -17,5 +17,5 @@ terraform {
 }
 
 locals {
-  project_name = "Andrew"
+  project_name = "DJ-Terraform-AS01"
 }

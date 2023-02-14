@@ -1,12 +1,5 @@
-
-
 provider "aws" {
-  profile = "default"
+  profile = "terraform"
   region  = "us-east-1"
 }
 
-provider "aws" {
-  profile = "default"
-  region  = "eu-west-1"
-	alias   = "eu"
-}
